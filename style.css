@@ -253,7 +253,7 @@ input {
 }
 
 footer {
-  top: 5px;
+  top: 100px;
   position: relative;
   height: 50px;
   background-color: #252839;
