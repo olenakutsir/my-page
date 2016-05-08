@@ -300,7 +300,7 @@ section#contact .form-group input.form-control {
   height: auto;
 }
 section#contact .form-group textarea.form-control {
-  height: 236px;
+  height: 180px;
 }
 section#contact .form-control:focus {
   border-color: #fed136;
@@ -309,27 +309,27 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   
 }
 section#contact :-ms-input-placeholder {
   
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   color: #bbbbbb;
 }
 section#contact .text-danger {
