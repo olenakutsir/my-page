@@ -1,0 +1,280 @@
+* {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: 'Droid Serif';
+}
+body {
+  background-color: #b3c2bf;
+  height: 2885px;
+}
+#container {
+  position: relative;
+  width: 1000px;
+  height: 2885px;
+}
+header {
+  height: 200px;
+  background-color: #252839;
+  padding-top: 0px;
+  text-align: none;
+  
+  color: #e9ece5;
+}
+header img {
+  position: absolute;
+  width: 150px;
+  padding-left: 5%;
+  padding-top: 20px;
+  z-index: 0
+}
+
+#olenakutsir {
+    position: absolute; 
+    padding-bottom: 1%;
+    font-size: 15px;
+    font-weight: 200;
+    width: 75%;
+    top: 30px;
+    right: 0;
+    height: 10px;
+    color: #e9ece5;
+}
+#navi {
+  position: absolute; 
+    padding-bottom: 1%;
+    font-size: 15px;
+    font-weight: 200;
+    width: 75%;
+    top: 70px;
+    right: 0;
+    height: 10px;
+    color: #e9ece5;
+}
+header ul {
+  padding: 0;
+} 
+header li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e9ece5;
+    font-weight: bold;
+    font-weight: 200;
+    font-size: 15px;
+    clear: both;
+    margin: 1px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #e9ece5;
+}
+
+header li a:hover {
+    cursor: pointer;
+    border-bottom: solid 2px #e9ece5;
+    text-decoration: none;
+    color: #e9ece5;
+}
+#welcome {
+  position: relative;
+  height: 519px;
+  width: 1000px;
+  
+}
+#pavement {
+  position: absolute;
+  z-index: -1
+}
+#pavement img {
+   opacity: 0.9;
+}
+#hallo {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 100;
+  width: 45%;
+  top: 80px;
+  right: 28%;
+  height: 25%;
+  color: #5e0231;
+  border-radius: 30px;
+  background: #e9ece5;
+  box-shadow: 10px 10px 5px #677077;
+  padding: 20px;
+}
+.light {
+  color: #252839; 
+}
+#about_me {
+  position: relative;
+  height: 670px;
+  width: 1000px;
+}
+#me {
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  color: #252839;
+  background-color: #e9ece5;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#rain {
+  position: absolute;
+  top: 30%;
+  z-index: -1;
+  height: 500px;
+  opacity: 0.9;
+  margin: 0;
+}
+#education_experience {
+  background-color: #e9ece5;
+  height: 370px;
+  
+}
+table {
+  color: #252839;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+table th:first-child {
+  font-size: 25px;
+  text-align: right;
+  color: #252839;
+  padding-right: 5%;
+}
+table th:last-child {
+  font-size: 25px;
+  text-align: left;
+  color: #252839;
+  padding-left: 5%;
+}
+tr td:first-child {
+  font-size: 20px;
+  text-align: right;
+  color: #252839;
+  padding-right: 5%; 
+}
+tr td:last-child {
+  font-size: 20px;
+  text-align: left;
+  color:#252839;
+  padding-left: 5%;
+     
+}
+#skills {
+  width: 980px;
+  height: 370px;
+  background-color: #e9ece5;
+  color: #252839;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+@keyframes width {
+    0%, 100% {
+        width: 200px;
+    }
+    0%  {
+        width: 350px;
+    }
+}
+.cssanime {
+    width:350px;
+    height:23px;
+    padding-left: 20px;
+    margin: 20px 0;
+    color: #e9ece5;
+    font: 20px ;
+    vertical-align: middle;
+    background:#252839;
+    animation: width 7s reverse;
+}
+#html {animation-timing-function: ease-in;}
+#css {animation-timing-function: ease-out;}
+#java {animation-timing-function: ease-in-out;}
+
+#uk {animation-timing-function: ease-in-out;}
+#en {animation-timing-function: ease-in;}
+#gm {animation-timing-function: ease-out;}
+
+
+#contact {
+  position: absolute;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #252839;
+  font-size: 18px;
+}
+#fb{
+  position: inherit;
+  text-align: center;
+}
+.fb {
+  text-align: center;
+}
+#fb-icon img {
+  width: 170px;
+  height: 57px;
+  padding-left: 41%;
+  
+}
+#form {
+  position: absolute;
+  text-align: center;
+  padding-top: 3%;
+  color: #252839;
+}
+input {
+  width: 250px;
+    padding: 12px 20px;
+    margin: 0px 1% 0 0; 
+    display: inline-block;
+    background-color: #FCFCFC;
+    border: 1px solid black;
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-family: Verdana, serif;
+    font-size: 14px;
+}
+#message {
+  width: 250px;
+  height: 100px;
+  text-align: justify;
+}
+
+#btn-send {
+  width: 100px;
+  top: 5px;
+}
+
+footer {
+  top: 5px;
+  position: relative;
+  height: 50px;
+  background-color: #252839;
+  text-align: center;
+  color: #e9ece5;
+  padding-top: 15px;
+}
+
+
+.arrow_up {
+    margin: 20px auto;
+    width: 1.5em;
+    height: 1.5em;
+    border-left: 0.2em solid black;
+    border-top: 0.2em solid black;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+hr {
+  border-bottom-style: double;
+  color: #252839;
+  width: 998px;
+}

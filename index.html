@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Olena Kutsir</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+      <div id="container">
+        <header id="home">
+             <img src="img/olena.png" alt="olena kutsir">
+            <div id="olenakutsir">
+               <h1>Olena Kutsir</h1>
+            </div>
+            <div id="navi">
+               <nav>
+                  <ul>
+                    <li><a class="page-scroll" href="#home">Home</a></li>
+                    <li><a class="page-scroll" href="#about_me">About me</a></li>
+                    <li><a class="page-scroll" href="#education_experience">Education/Experience</a></li>
+                    <li><a class="page-scroll" href="#skills">Skills</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+                  </ul>
+               </nav> 
+            </div>
+            <br>
+        </header>
+        <article id="welcome">
+            <div id="pavement">
+              <img src="img/pavement.jpg" alt="pavement">
+            </div>
+            <div id="hallo" hidden>
+              <span id="hidden">   
+                <h2 class="hidden" hidden>Hallo!</h2>
+                <p class="hidden" hidden><b>Welcome to my page</b></p>
+              </span>
+            </div>
+        </article>
+        <hr>
+        <article id="about_me">
+            <div id="me">
+              <h2>About me</h2>
+                <br>
+                  <p>My name is Olena and I'm a beginner front-end developer.<br> 
+                  I've just started to move in this direction <br> and now I can't imagine my life without Web development.<br> 
+                  I always try to learn new web technologies and improve my skills.<br>
+                  I also like Photo and to experiment with it.
+                  </p>
+            </div>
+            <div id="rain">
+            <img src="img/raindrops.jpg" alt="raindrops on window glass">
+            </div>
+        </article>
+        
+        <div class="arrow_up" onclick="scrollToId('#home');"></div>
+        <hr>
+        <article id="education_experience">
+        <table>
+            <tr>
+                <th>Education</th>
+                <th>Experience</th>
+            </tr>
+            <tr>
+                 <td><br>
+                     April 2016<br>
+                     <b>SoftServe IT Academy</b><br>
+                     HTML5/ CSS3/ JavaScript Fundamentals<br>
+                     <br>
+                     2007-2012<br>
+                     <b>Ivan Franko National University of Lviv</b><br>
+                     Faculty of Law<br>
+                     <br>
+                     1997-2007<br>
+                     <b>Lviv Linguistic Gymnasium</b><br>
+                 </td>
+                 <td><b>Territorial department of the State Judicial Administration of Ukraine in Lviv region</b><br>  
+                     <br>Main specialist of the organizational support <br> the courts and information technology<br>
+                     <br>Main specialist of the Legal Sector<br>
+                </td>
+            </tr>
+        </table>
+        </article>
+        <hr>
+        <div class="arrow_up" onclick="scrollToId('#home');"></div>
+        <hr>
+        <article id="skills">
+           
+           <h2>Skills</h2>
+              <div id="experience">
+                <p>Experience with</p>
+                   <div id="html" class="cssanime">HTML5</div>
+                   <div id="css" class="cssanime">CSS3</div>
+                   <div id="java" class="cssanime">JavaScript</div>
+               </div>
+               <div id="language">
+                <p>Language</p>
+                   <div id="uk" class="cssanime">Ukrainian - fluent</div>
+                   <div id="en" class="cssanime">English - intermediate</div>
+                   <div id="gm" class="cssanime">German - elementary</div>
+               </div>
+        </article>
+        <hr>
+        <div class="arrow_up" onclick="scrollToId('#home');"></div>
+        <article id="contact">
+               
+                   <h2 class="fb">I'd love to hear from you on</h2>
+                   <br>
+                     <div id="fb-icon">
+                          <a class="fb" href="https://www.facebook.com/olena.kutsir">
+                          <img src="img/fb-icon.png" alt="facebook icon" width="100"></img>
+                          </a>
+                     </div>
+                    
+               <div id="fb">
+                   <p><b>or send me a message</b></p>
+               </div>
+               <div id="form">  
+                  <form method="GET" action="/message">
+                     
+                        <label for="name">Name:</label>
+                        <br>
+                        <input id="name" type="name" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" required>
+                        <br>
+                        <label for="message">Message:</label>
+                        <br>
+                        <input type="message" id="message" required>
+                  </form>
+                  <button id="btn-send">
+                     Send
+                  </button>  
+                  <div class="arrow_up" onclick="scrollToId('#home');"></div>   
+               </div> 
+         </article>   
+        </div>   
+        
+        <footer> <p>© 2016. All Rights Reserved </p></footer>
+       
+    <script src="//code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+            crossorigin="anonymous">
+    </script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/script.js"></script>
+        
+    </body>
+</html>
