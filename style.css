@@ -282,8 +282,9 @@ hr {
 
 section#contact {
   top: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
+  position: absolute;
+  text-align: center;
+  
 }
 section#contact .section-heading {
   color: white;
@@ -332,5 +333,5 @@ section#contact :-ms-input-placeholder {
   color: #bbbbbb;
 }
 section#contact .text-danger {
-  color: #e74c3c;
+  color: #5e0231;
 }
