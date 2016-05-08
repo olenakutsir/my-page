@@ -282,7 +282,7 @@ hr {
 
 section#contact {
   top: 150px;
-  position: absolute;
+  position: inherit;
   text-align: center;
   
 }
