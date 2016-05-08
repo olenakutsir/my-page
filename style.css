@@ -281,8 +281,6 @@ hr {
 
 
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -307,27 +305,27 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
-  color: #bbbbbb;
+  
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
-  color: #bbbbbb;
+  
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
-  color: #bbbbbb;
+  
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
