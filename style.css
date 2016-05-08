@@ -281,6 +281,7 @@ hr {
 
 
 section#contact {
+  top: 150px;
   background-position: center;
   background-repeat: no-repeat;
 }
