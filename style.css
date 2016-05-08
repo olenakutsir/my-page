@@ -281,9 +281,9 @@ hr {
 
 
 section#contact {
-  top: 230px;
+  top: 200px;
   position: inherit;
-  text-align: center;
+  text-align: justify;
   
 }
 section#contact .section-heading {
